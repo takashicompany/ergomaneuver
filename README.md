@@ -1,4 +1,4 @@
-# ergomaneuver
+# Ergo Meneuver
 
 ## 組み立てに必要な部品
 
