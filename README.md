@@ -194,7 +194,7 @@ PCBの裏側からネジにスペーサーを取り付けます。
 全部で6箇所です。  
 <img src = "https://github.com/takashicompany/ergomaneuver/blob/master/images/build/IMG_7895.JPG?raw=true" width = "600px" />
 
-PCBの裏側にスペーサーが出ていることを確認します。
+PCBの裏側にスペーサーが出ていることを確認します。  
 <img src = "https://github.com/takashicompany/ergomaneuver/blob/master/images/build/IMG_7896.JPG?raw=true" width = "600px" />
 
 ボトムプレートを載せてスペーサーとネジで固定したら完了です。
