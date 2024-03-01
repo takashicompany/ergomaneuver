@@ -171,7 +171,11 @@ PCBの裏側からrジョイスティックの足が出ていることを確認�
 
 ### 8. ファームウェアの書き込み
 
-準備中...
+[Remap](https://remap-keys.app/catalog/dVkjiqBWOWYEa49WNYW3/firmware)からファームウェアを書き込むことができます。
+
+ソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/ergomaneuver/1/keyboards/takashicompany/ergomaneuver)です。
+
+トラックポインタ周りの設定キーは後日記載します。
 
 ### 9. キースイッチとスイッチプレートの取り付け
 
