@@ -1,5 +1,8 @@
 # Ergo Meneuver
 
+<img src = "https://github.com/takashicompany/ergomaneuver/blob/master/images/01.jpg?raw=true" width = "600px" />
+
+
 ## 組み立てに必要な部品
 
 キットに含まれていないものはご自身でご用意ください。  
