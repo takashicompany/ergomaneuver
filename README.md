@@ -206,7 +206,7 @@ Remap上でキーマップの変更が可能です。
 
 OLEDディスプレイで設定情報を確認できます。
 
-<img src = "https://github.com/takashicompany/ergomaneuver/blob/master/images/build/IMG_8355.JPG?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/ergomaneuver/blob/master/images/build/IMG_8355.jpg?raw=true" width = "600px" />
 
 |情報|説明|
 |:--|:--|
