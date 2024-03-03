@@ -178,7 +178,32 @@ PCBの裏側からrジョイスティックの足が出ていることを確認�
 
 ソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/ergomaneuver/1/keyboards/takashicompany/ergomaneuver)です。
 
-トラックポインタ周りの設定キーは後日記載します。
+当ファームウェアは、トラックポインタを一定時間内に一定の距離を移動させるとマウスレイヤーが有効になります。
+デフォルトではマウスレイヤーは9番目(index:8)に設定されております。
+マウスレイヤーの詳細は以下の記事を御覧ください。
+*[トラックボール付き自作キーボードをさらに使いやすくするファームウェア](https://zenn.dev/takashicompany/articles/69b87160cda4b9#minizone%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)*
+
+Remap上でキーマップの変更が可能です。
+
+<img src = "https://github.com/takashicompany/ergomaneuver/assets/4215759/5cd583c3-e94e-478c-ae04-f3d6ed2f5060" width = "600px" />
+
+以下は、ErgoManeuver独自のキーです。Remapキーマップを設定する際に利用します。
+
+|Keycode|[enum](https://github.com/takashicompany/qmk_firmware/blob/ergomaneuver/1/keyboards/takashicompany/ergomaneuver/ergomaneuver.h)での定義|名称|機能|
+|:--|:--|:--|:--|
+|User 0|KC_MY_BTN1|左クリック|押下すると左クリックになります。|
+|User 1|KC_MY_BTN2|右クリック|押下すると右クリックになります。|
+|User 2|KC_MY_BTN3|第3クリック|押下すると第3クリックになります。挙動はOS等に準拠します。|
+|User 3|KC_MY_SCR|スクロールクリック|押している間にトラックポインタを動かすとスクロール入力になります。|
+|User 4|KC_TO_CLICKABLE_INC|マウスレイヤー設定減|マウスレイヤーが有効になるまでのポインター移動距離を増加させます。最大値は256です。|
+|User 5|KC_TO_CLICKABLE_DEC|マウスレイヤー設定増|マウスレイヤーが有効になるまでのポインター移動距離を減少させます。最低値は5です。|
+|User 6|KC_SCROLL_DIR_V|垂直スクロール反転|スクロールクリック中の垂直スクロールの方向を反転させます。|
+|User 7|KC_SCROLL_DIR_H|水平スクロール反転||スクロールクリック中の水平スクロールの方向を反転させます。|
+|User 8|KC_OLED|OLED表示切り替え|OLEDの表示を情報/ロゴに切り替えます。|
+|User 9|KC_JS_INC|トラックポインタ速度減|トラックポインタの移動量を遅くします。|
+|User 10|KC_JS_DEC|トラックポインタ速度増|トラックポインタの移動量を早くします。|
+
+
 
 ### 9. キースイッチとスイッチプレートの取り付け
 
